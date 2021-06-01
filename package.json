@@ -1,6 +1,6 @@
 {
   "name": "use-json-comparison",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "use json for deep comparison",
   "authors": {
     "name": "chenshuai2144",
@@ -19,7 +19,7 @@
     "prepublishOnly": "npm run test && npm run build && np --no-cleanup --yolo --no-publish"
   },
   "peerDependencies": {
-    "react": "16.x"
+    "react": ">=16.9.0"
   },
   "devDependencies": {
     "father": "^2.16.0",
